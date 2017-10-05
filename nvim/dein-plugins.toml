@@ -1,0 +1,45 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+  let g:python_host_prog=$PYENV_ROOT.'/versions/2.7.14/bin/python'
+  let g:python3_host_prog=$PYENV_ROOT.'/versions/3.6.3/bin/python'
+  let g:deoplete#enable_at_startup = 1
+'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'osyo-manga/vim-brightest'
+hook_add = '''
+  let g:brightest#highlight = { "group" : "BrightestUnderline" }
+  let g:brightest#pattern = '\k\+'
+'''
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+
