@@ -36,6 +36,9 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
+"Denite Settings
+noremap <C-B> :Denite buffer<CR>
+noremap <C-F> :Denite -buffer-name=file file<CR>
 "neovimrc
 " set char to utf-8
 set fenc=utf-8
