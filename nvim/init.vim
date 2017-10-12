@@ -3,6 +3,9 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
+let g:python_host_prog=$PYENV_ROOT.'/versions/2.7.14/bin/python'
+let g:python3_host_prog=$PYENV_ROOT.'/versions/3.6.3/bin/python'
+
 " Required:
 set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
@@ -16,7 +19,9 @@ if dein#load_state('~/.cache/dein')
 
   " Add or remove your plugins here:
   let s:toml = '~/.config/nvim/dein-plugins.toml'
+  let s:lazy_toml = '~/.config/nvim/dein-lazy-plugins.toml'
   call dein#load_toml(s:toml, {'lazy': 0})
+  call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -39,6 +44,8 @@ endif
 "Denite Settings
 noremap <C-B> :Denite buffer<CR>
 noremap <C-F> :Denite -buffer-name=file file<CR>
+"NerdTree Settings
+noremap <C-n> :NERDTreeToggle<CR>
 "neovimrc
 " set char to utf-8
 set fenc=utf-8
@@ -70,8 +77,8 @@ set wildmode=list:longest
 " set tab to space
 set expandtab
 " tab is 2 space
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 
 " search settings
 set ignorecase

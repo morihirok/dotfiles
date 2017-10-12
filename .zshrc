@@ -2,6 +2,7 @@ alias ls='ls -G'
 alias vi='nvim'
 alias vimrc='vi ~/.config/nvim/init.vim'
 alias vimplugin='vi ~/.config/nvim/dein-plugins.toml'
+alias vimlazyplugin='vi ~/.config/nvim/dein-lazy-plugins.toml'
 
 ########################################
 # 環境変数
