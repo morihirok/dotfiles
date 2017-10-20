@@ -45,7 +45,9 @@ endif
 noremap <C-B> :Denite buffer<CR>
 noremap <C-F> :Denite -buffer-name=file file<CR>
 "NerdTree Settings
-noremap <C-n> :NERDTreeToggle<CR>
+let g:nerdtree_tabs_open_on_console_startup=1
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+noremap <C-n> :NERDTreeTabsToggle<CR>
 "neovimrc
 " set char to utf-8
 set fenc=utf-8
@@ -88,3 +90,5 @@ set wrapscan
 set hlsearch
 " double tap Esc to no hilite
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+inoremap <silent> jj <ESC>
+set clipboard+=unnamedplus
