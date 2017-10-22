@@ -17,6 +17,9 @@ repo = 'scrooloose/nerdtree'
 repo = 'jistr/vim-nerdtree-tabs'
 
 [[plugins]]
+repo = 'w0rp/ale'
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 
 [[plugins]]
