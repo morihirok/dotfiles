@@ -74,7 +74,7 @@ set smartindent
 set showmatch
 " disp status line
 set laststatus=2
-" completion command line 
+" completion command line
 set wildmode=list:longest
 " set tab to space
 set expandtab
