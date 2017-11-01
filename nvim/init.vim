@@ -88,7 +88,9 @@ set smartcase
 set incsearch
 set wrapscan
 set hlsearch
-" double tap Esc to no hilite
+" double tap Esc to no highlight
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 inoremap <silent> jj <ESC>
 set clipboard+=unnamedplus
+highlight ALEError ctermbg=none cterm=reverse
+highlight ALEWarning ctermbg=none cterm=reverse
