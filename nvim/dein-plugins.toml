@@ -35,6 +35,12 @@ repo = 'cohama/lexima.vim'
 repo = 'mattn/emmet-vim'
 
 [[plugins]]
+repo = 'kannokanno/previm'
+hook_add = '''
+  let g:previm_open_cmd = 'open -a Google\ Chrome'
+'''
+
+[[plugins]]
 repo = 'osyo-manga/vim-brightest'
 hook_add = '''
   let g:brightest#highlight = { "group" : "BrightestUnderline" }
