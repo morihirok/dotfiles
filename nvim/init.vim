@@ -41,13 +41,14 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
-"Denite Settings
-noremap <C-B> :Denite buffer<CR>
-noremap <C-F> :Denite -buffer-name=file file<CR>
 "NerdTree Settings
 let g:nerdtree_tabs_open_on_console_startup=1
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 noremap <C-n> :NERDTreeTabsToggle<CR>
+"Linter Settings
+highlight ALEError ctermbg=none cterm=reverse
+highlight ALEWarning ctermbg=none cterm=reverse
+
 "neovimrc
 " set char to utf-8
 set fenc=utf-8
@@ -92,5 +93,6 @@ set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 inoremap <silent> jj <ESC>
 set clipboard+=unnamedplus
-highlight ALEError ctermbg=none cterm=reverse
-highlight ALEWarning ctermbg=none cterm=reverse
+" split keybinds
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
