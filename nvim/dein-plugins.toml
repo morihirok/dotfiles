@@ -60,6 +60,9 @@ repo = 'cespare/vim-toml'
 repo = 'othree/yajs.vim'
 
 [[plugins]]
+repo = 'mxw/vim-jsx'
+
+[[plugins]]
 repo = 'elzr/vim-json'
 hook_add = '''
   let g:vim_json_syntax_conceal = 0
