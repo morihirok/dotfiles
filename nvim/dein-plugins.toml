@@ -23,6 +23,9 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 
 [[plugins]]
@@ -57,7 +60,10 @@ repo = 'airblade/vim-gitgutter'
 repo = 'cespare/vim-toml'
 
 [[plugins]]
-repo = 'othree/yajs.vim'
+repo = 'othree/yajs'
+
+[[plugins]]
+repo = 'othree/es.next.syntax.vim'
 
 [[plugins]]
 repo = 'neoclide/vim-jsx-improve'

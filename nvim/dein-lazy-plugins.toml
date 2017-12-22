@@ -28,7 +28,3 @@ depends = ['neosnippet-snippets']
 repo      = 'thinca/vim-prettyprint'
 on_cmd    = ['PP', 'PrettyPrint']
 
-[[plugins]]
-repo = 'cohama/lexima.vim'
-on_i = 1
-
