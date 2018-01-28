@@ -1,4 +1,5 @@
 alias ls='ls -G'
+alias gs='git status'
 alias vi='nvim'
 alias vimrc='vi ~/.config/nvim/init.vim'
 alias vimplugin='vi ~/.config/nvim/dein-plugins.toml'

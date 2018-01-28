@@ -26,6 +26,9 @@ hook_add = '''
 repo = 'cohama/lexima.vim'
 
 [[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 
 [[plugins]]
