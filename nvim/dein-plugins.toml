@@ -57,13 +57,28 @@ repo = 'tpope/vim-fugitive'
 repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
-repo = 'cespare/vim-toml'
+repo = 'pangloss/vim-javascript'
+hook_add = '''
+  let g:javascript_plugin_jsdoc = 1
+'''
 
 [[plugins]]
-repo = 'othree/yajs'
+repo = 'othree/yajs.vim'
+
+[[plugins]]
+repo = 'othree/javascript-libraries-syntax.vim'
+hook_add = '''
+  let g:used_javascript_libs = 'underscore,backbone'
+'''
 
 [[plugins]]
 repo = 'othree/es.next.syntax.vim'
+
+[[plugins]]
+repo = 'chemzqm/vim-jsx-improve'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
 
 [[plugins]]
 repo = 'elzr/vim-json'
