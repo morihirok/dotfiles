@@ -23,9 +23,6 @@ if dein#load_state('~/.cache/dein')
   call dein#load_toml(s:toml, {'lazy': 0})
   call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
-  " You can specify revision/branch/tag.
-  call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
-
   " Required:
   call dein#end()
   call dein#save_state()
