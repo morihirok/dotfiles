@@ -22,7 +22,6 @@ if dein#load_state('~/.cache/dein')
   let s:lazy_toml = '~/.config/nvim/dein-lazy-plugins.toml'
   call dein#load_toml(s:toml, {'lazy': 0})
   call dein#load_toml(s:lazy_toml, {'lazy': 1})
-
   " Required:
   call dein#end()
   call dein#save_state()

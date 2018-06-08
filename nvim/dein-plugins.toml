@@ -2,19 +2,7 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'Shougo/vimproc.vim'
-hook_post_update = '''
-  let g:dein#plugin.build = 'make'
-'''
-
-[[plugins]]
-repo = 'Shougo/vimshell'
-
-[[plugins]]
 repo = 'Shougo/neosnippet-snippets'
-
-[[plugins]]
-repo = 'Shougo/denite.nvim'
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
@@ -41,18 +29,6 @@ repo = 'itchyny/lightline.vim'
 repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
-repo = 'mattn/emmet-vim'
-hook_add = '''
-  let g:user_emmet_settings = { "javascript" : { "extends" : "jsx" } }
-'''
-
-[[plugins]]
-repo = 'kannokanno/previm'
-hook_add = '''
-  let g:previm_open_cmd = 'open -a Google\ Chrome'
-'''
-
-[[plugins]]
 repo = 'osyo-manga/vim-brightest'
 hook_add = '''
   let g:brightest#highlight = { "group" : "BrightestUnderline" }
@@ -66,27 +42,6 @@ repo = 'tpope/vim-fugitive'
 repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
-repo = 'pangloss/vim-javascript'
-hook_add = '''
-  let g:javascript_plugin_jsdoc = 1
-'''
-
-[[plugins]]
-repo = 'othree/yajs.vim'
-
-[[plugins]]
-repo = 'othree/javascript-libraries-syntax.vim'
-hook_add = '''
-  let g:used_javascript_libs = 'underscore,backbone'
-'''
-
-[[plugins]]
-repo = 'othree/es.next.syntax.vim'
-
-[[plugins]]
-repo = 'chemzqm/vim-jsx-improve'
-
-[[plugins]]
 repo = 'cespare/vim-toml'
 
 [[plugins]]
@@ -97,7 +52,4 @@ hook_add = '''
 
 [[plugins]]
 repo = 'slim-template/vim-slim'
-
-[[plugins]]
-repo = 'fatih/vim-go'
 
