@@ -51,5 +51,8 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo = 'tpope/vim-rails'
+
+[[plugins]]
 repo = 'slim-template/vim-slim'
 
