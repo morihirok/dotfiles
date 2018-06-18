@@ -44,6 +44,8 @@ noremap <C-n> :NERDTreeTabsToggle<CR>
 "Linter Settings
 highlight ALEError ctermbg=none cterm=reverse
 highlight ALEWarning ctermbg=none cterm=reverse
+"Terminal Settings
+tnoremap <silent> <ESC> <C-\><C-n>
 
 "neovimrc
 " set char to utf-8
