@@ -92,5 +92,8 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 inoremap <silent> jj <ESC>
 set clipboard+=unnamedplus
 " split keybinds
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
+nnoremap s <Nop>
+nnoremap sj <C-w>j
+nnoremap sk <C-w>k
+nnoremap sl <C-w>l
+nnoremap sh <C-w>h
