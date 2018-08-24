@@ -63,3 +63,5 @@ repo = 'tpope/vim-rails'
 [[plugins]]
 repo = 'slim-template/vim-slim'
 
+[[plugins]]
+repo = 'ekalinin/Dockerfile.vim'
