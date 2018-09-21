@@ -17,4 +17,5 @@ cask "iterm2"
 cask "rubymine"
 cask "karabiner-elements"
 cask "visual-studio-code"
+cask "1password"
 mas "Xcode", id: 497799835
