@@ -18,4 +18,5 @@ cask "rubymine"
 cask "karabiner-elements"
 cask "visual-studio-code"
 cask "1password"
+cask "docker"
 mas "Xcode", id: 497799835
