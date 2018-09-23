@@ -19,4 +19,5 @@ cask "karabiner-elements"
 cask "visual-studio-code"
 cask "1password"
 cask "docker"
+cask "airmail"
 mas "Xcode", id: 497799835
